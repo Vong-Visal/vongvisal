@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Double Slider Sign in/up Form</title>
+       <link rel="stylesheet" href="./sign.css" />
+    <link rel="stylesheet" href="styles.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+ 
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+          <div class="logo" >
+            <a  href="https://www.youtube.com">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="">
+           </a>
+              
+            </div>
+            <div class="menu">
+              <div class="dropdown">
+                  <button class="dropbtn"> <a href="index.html"></a>Home<i class="fa fa-caret-down"></i></button>
+                  <div class="dropdown-content">
+                      <a href="index.html">Home page</a>
+                      <a href="trending.html">Trending</a>
+                      <a href="subscrip.html">Subscriptions</a>
+                      <a href="about-us.html">About My Team Project</a>
+                      <a href="sign-up.html">Sign-Up/Login</a>
+                  </div>
+              </div>
+              <div class="dropdown">
+                  <button class="dropbtn">Explore<i class="fa fa-caret-down"></i></button>
+                  <div class="dropdown-content">
+                      <a href="music.html">Music</a>
+                      <a href="gaming.html">Gaming</a>
+                      <a href="news.html">News</a>
+                      <a href="sign-up.html">Sign-Up/Login</a>
+                  </div>
+              </div>
+              <div class="dropdown">
+                  <button class="dropbtn">Library <i class="fa fa-caret-down"></i></button>
+                  <div class="dropdown-content">
+                      <a href="history.html">History</a>
+                      <a href="watch-later.html">Watch Later</a>
+                      <a href="sign-up.html">Sign-Up/Login</a>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><img src="search.PNG" alt=""></button>
+        </div>
+          <div class="user-menu">
+              <a href="sign-up.html"><i class="fa fa-user-circle"></i></a>
+          </div>
+      </div>
+  </header>
+<br>
+<br>
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <form action="#">
+          <h1>Create Account</h1>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <span>or use your email for registration</span>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button>Sign Up</button>
+        </form>
+      </div>
+      <div class="form-container sign-in-container">
+        <form action="#">
+          <h1>Sign in</h1>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <span>or use your account</span>
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <a href="#">Forgot your password?</a>
+          <button>Sign In</button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>Welcome Back!</h1>
+            <p>
+              To keep connected with us please login with your personal info
+            </p>
+            <button class="ghost" id="signIn">Sign In</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>Hello, Friend!</h1>
+            <p>Enter your personal details and start journey with us</p>
+            <button class="ghost" id="signUp">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./sign.js"></script>
+    <script src="index.js"></script>
+    
+  </body>
+</html>

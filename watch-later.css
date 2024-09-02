@@ -1,0 +1,135 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282828;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.search-bar button {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.user-menu a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.user-menu a:hover {
+    color: #ccc;
+}
+
+/* Main Navigation Styles */
+.main-nav {
+    background-color: #383838;
+    padding: 10px 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav ul li {
+    margin: 0 20px;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+}
+
+.main-nav ul li a:hover {
+    background-color: #505050;
+    border-radius: 5px;
+}
+
+/* Content Section Styles */
+.video-list {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.video-card {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-card img {
+    width: 100%;
+    height: auto;
+}
+
+.video-info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video-info h3 {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.video-info button {
+    padding: 5px 10px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.watch-later {
+    padding: 20px;
+}
+
+.watch-later h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.watch-later .video-card {
+    margin-bottom: 20px;
+}

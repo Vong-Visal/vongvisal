@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Later - Magazine YouTube Channel</title>
+    <link rel="stylesheet" href="watch-later.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <header>
+            <div class="navbar">
+                <div class="logo" >
+                  <a  href="https://www.youtube.com">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="">
+                 </a>
+                    
+                  </div>
+                  <div class="menu">
+                    <div class="dropdown">
+                        <button class="dropbtn"> <a href="index.html"></a>Home<i class="fa fa-caret-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="index.html">Home page</a>
+                            <a href="trending.html">Trending</a>
+                            <a href="subscrip.html">Subscriptions</a>
+                            <a href="about-us.html">About My Team Project</a>
+                            <a href="sign-up.html">Sign-Up/Login</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Explore<i class="fa fa-caret-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="music.html">Music</a>
+                            <a href="gaming.html">Gaming</a>
+                            <a href="news.html">News</a>
+                            <a href="sign-up.html">Sign-Up/Login</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Library <i class="fa fa-caret-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="history.html">History</a>
+                            <a href="watch-later.html">Watch Later</a>
+                            <a href="sign-up.html">Sign-Up/Login</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="search-box">
+                    <input type="text" class="search-bar" placeholder="search">
+                    <button class="search-btn"><img src="search.PNG" alt=""></button>
+                </div>
+                <div class="user-menu">
+                    <a href="sign-up.html"><i class="fa fa-user-circle"></i></a>
+                    <img src="video.PNG" class="icon" alt="">
+                    <img src="grid.PNG" class="icon" alt="">
+                    <img src="bell.PNG" class="icon" alt="">
+                </div>
+            </div>
+
+        <nav class="main-nav">
+            <ul>
+               
+                <li><a href="#">Watch Later</a></li>
+                
+        </nav>
+    </header>
+    <main>
+        <section class="video-list">
+            <div class="video-card">
+                <img src="54.png" alt="Video Thumbnail 1">
+                <div class="video-info">
+                    <h3>I Surprised MrBeast With Custom iPhones!</h3>
+                    <button onclick="addToWatchLater('I Surprised MrBeast With Custom iPhones!', '54.png')">Watch Later</button>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="55.png" alt="Video Thumbnail 2">
+                <div class="video-info">
+                    <h3>Testing a $13,000 Hasselblad Camera</h3>
+                    <button onclick="addToWatchLater('Testing a $13,000 Hasselblad Camera', '55.png')">Watch Later</button>
+                </div>
+            </div>
+            <!-- Repeat video-cards for more videos -->
+            <div class="video-card">
+                <img src="57.png" alt="Video Thumbnail 2">
+                <div class="video-info">
+                    <h3>ROG Ally X Review: The Ultimate Gaming Handheld?</h3>
+                    <button onclick="addToWatchLater('ROG Ally X Review: The Ultimate Gaming Handheld?', '55.png')">Watch Later</button>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="56.png" alt="Video Thumbnail 4">
+                <div class="video-info">
+                    <h3>I Bought 100 Amazon Returned Packages</h3>
+                    <button onclick="addToWatchLater('I Bought 100 Amazon Returned Packages', '55.png')">Watch Later</button>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="watch-later">
+            <h2>Watch Later</h2>
+            <div id="watch-later-list"></div>
+        </section>
+    </main>
+
+    <script src="watch-later.js"></script>
+    <script src="index.js"></script>
+    <footer class="site-footer">
+        <div class="footer-section">
+           <h3>About Us</h3> 
+            <p>WE are from Group 4...</p>
+        </div>
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Email: Group4@gmail.com</p>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <!-- Add more social media links as needed -->
+        </div>
+        <div class="footer-section">
+            <p>© 2024 Group 4 Website </p>
+        </div>
+    </footer>
+</body>
+</html>
